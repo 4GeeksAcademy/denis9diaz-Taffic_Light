@@ -5,3 +5,4 @@ const Yellow = ({active, onClick}) => {
 };
 
 export default Yellow;
+
