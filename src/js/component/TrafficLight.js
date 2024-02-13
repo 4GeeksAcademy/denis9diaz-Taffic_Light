@@ -11,8 +11,8 @@ const TrafficLight = () => {
 				<div className="lineTraffic"></div>
 				<div className="bodyTraffic">
 					<Green active={color === "green"} onClick={() => setColor("green")} />
-					<Yellow active={color === "yellow"} onClick={() => setColor("yellow")}/>
-					<Red active={color === "red"} onClick={() => setColor("red")}/>
+					<Yellow active={color === "yellow"} onClick={() => setColor("yellow")} />
+					<Red active={color === "red"} onClick={() => setColor("red")} />
 				</div>
 			</div>
 		</div>
